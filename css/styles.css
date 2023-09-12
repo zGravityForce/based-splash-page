@@ -108,6 +108,11 @@
   src: url('../assets/fonts/Blinker-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Nickainley';
+  src: url('../assets/fonts/Nickainley.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -8265,9 +8270,16 @@ textarea.form-control-lg {
   color: rgba(0, 0, 0, 0.5) !important;
 }
 
+.text-white-50-mb-0 {
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.5) !important;
+  margin-bottom: 0 !important;
+}
+
 .text-white-50 {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
+  font-weight: 900;
 }
 
 .text-reset {
