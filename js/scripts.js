@@ -51,4 +51,13 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // git book icon change color when hovers git book icon
+    const gitBookIcon = document.querySelector('#git-book-icon');
+    gitBookIcon.addEventListener('mouseenter', function() {
+        this.src = './assets/img/gitbook-icon-hover.svg'
+    })
+    gitBookIcon.addEventListener('mouseleave', function() {
+        this.src = './assets/img/gitbook-icon.svg'
+    })
+
 });
